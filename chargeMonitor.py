@@ -23,4 +23,4 @@ while True:
 		last_percent = percent
 
 	elif percent > last_percent:	#charging test
-		last_percent = None
+		last_percent = 100
