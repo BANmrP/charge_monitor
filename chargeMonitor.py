@@ -2,7 +2,7 @@ import psutil
 from win11toast import toast
 import time
 
-last_percent = None
+last_percent = 100
 
 while True:
 	time.sleep(60)
